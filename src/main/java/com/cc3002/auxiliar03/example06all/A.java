@@ -1,4 +1,4 @@
-package com.cc3002.auxiliar03.example99;
+package com.cc3002.auxiliar03.example06all;
 
 public class A {
   String m(A o1, B o2) {

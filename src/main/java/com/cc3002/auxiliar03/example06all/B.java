@@ -1,4 +1,4 @@
-package com.cc3002.auxiliar03.example99;
+package com.cc3002.auxiliar03.example06all;
 
 public class B extends A {
   String m(A o1, A o2) {
