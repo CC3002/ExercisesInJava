@@ -1,4 +1,4 @@
-package com.cc3002.auxiliar03.example15accessibility;
+package com.cc3002.auxiliar03.example03.accessibility;
 
 public class Animal {
   private String name;
@@ -12,7 +12,7 @@ public class Animal {
     return this.getName() + " with " + paired.getName();
   }
   public static void main(String[] args) {
-    System.out.println(new Animal("Jirafa").getPair(new Animal("Antilope")));
-    System.out.println(new Animal("Tigre").getName());
+    System.out.println("1. " + new Animal("Jirafa").getPair(new Animal("Antilope")));
+    System.out.println("2. " + new Animal("Tigre").getName());
   }
 }
