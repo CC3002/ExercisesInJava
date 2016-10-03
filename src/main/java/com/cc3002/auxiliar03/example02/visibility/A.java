@@ -1,4 +1,4 @@
-package com.cc3002.auxiliar03.example12lookupprivate;
+package com.cc3002.auxiliar03.example02.visibility;
 
 public class A {
   private String method1() {

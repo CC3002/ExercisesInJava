@@ -1,4 +1,4 @@
-package com.cc3002.auxiliar03.example11lookup;
+package com.cc3002.auxiliar03.example01.methodlookup;
 
 public class A {
   public String method1() {
