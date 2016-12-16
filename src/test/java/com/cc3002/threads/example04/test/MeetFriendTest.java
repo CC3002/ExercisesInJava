@@ -1,13 +1,13 @@
-package com.cc3002.threads.example03.test;
+package com.cc3002.threads.example04.test;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertTrue;
 
-import com.cc3002.threads.example03.IRobot;
-import com.cc3002.threads.example03.Robot;
-import com.cc3002.threads.example03.movement.MeetToLeft;
-import com.cc3002.threads.example03.movement.MeetToRight;
+import com.cc3002.threads.example04.IRobot;
+import com.cc3002.threads.example04.Robot;
+import com.cc3002.threads.example04.movement.MeetToLeft;
+import com.cc3002.threads.example04.movement.MeetToRight;
 
 import org.junit.Before;
 import org.junit.Test;
