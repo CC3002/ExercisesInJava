@@ -4,4 +4,9 @@ public class B extends A {
   public String method1() {
     return "B.method1()";
   }
+  
+  static public void main(String[] args){
+	  System.out.println(new B().method2());
+	  
+  }
 }

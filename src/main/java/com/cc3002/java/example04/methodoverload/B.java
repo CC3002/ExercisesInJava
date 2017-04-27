@@ -14,6 +14,6 @@ public class B extends A {
 
     System.out.println("3. " + new B().m(object1, object2));
     System.out.println("4. " + new B().m((B) object1, object2));
-    System.out.println("5. " + new B().m(object1, (B) object2));
+    System.out.println("5. " + new B().m((B)object1, (B) object2));
   }
 }
