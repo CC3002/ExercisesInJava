@@ -12,17 +12,14 @@ public class Dir implements IFile{
 		this.name = name;
 	}
 
-	@Override
 	public void mkdir(String name) {
 		content.add(new Dir(name));
 	}
 
-	@Override
 	public void touch(String filename) {
 		content.add(new File(filename));
 	}
 
-	@Override
 	public IFile find(String name) {
 		if(name.equals(this.name)) return this;
 		for(IFile f : content){
@@ -32,7 +29,6 @@ public class Dir implements IFile{
 		return null;
 	}
 
-	@Override
 	public void rmr(String name) {
 		if(name.equals(this.name)){
 			delete();

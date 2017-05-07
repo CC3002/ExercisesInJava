@@ -19,23 +19,19 @@ public class GImageAdapter implements GImage{
 		image = new BufferedImage( width, height,  BufferedImage.TYPE_INT_ARGB);
 	}
 
-	@Override
 	public int height() {
 		return  image.getHeight(null);
 	}
 
-	@Override
 	public int width() {
 		return image.getWidth(null);
 	}
 
-	@Override
 	public void setPixel(GColor c, int x, int y) {
 		Color javaColor = new Color(c.getRed(),c.getGreen(),c.getBlue()); 
 		image.setRGB(x, y, javaColor.getRGB());
 	}
 
-	@Override
 	public GColor getPixel(int x, int y) {
 		Color javaColor= new Color(image.getRGB(x, y));
 		return new GColor(javaColor.getRed(),
@@ -43,7 +39,6 @@ public class GImageAdapter implements GImage{
 				javaColor.getGreen());
 	}
 
-	@Override
 	public void draw(Graphics g) {
 		g.drawImage(image,0,0,null);
 	}
